@@ -5,8 +5,7 @@ import Image from "next/image";
 const about= () =>{
     return(
 
-                  
-        <div className="bg-slate-100 ">
+           <div className="bg-slate-100 ">
             {/**part 1 */}
             
             <h2 className=" font-bold title">About Romi.com</h2>
@@ -15,8 +14,8 @@ const about= () =>{
             We serve millions of buyers and suppliers around the world.</p>
            
            <div className="flex justify-end ">
-          <img src="https://img.alicdn.com/tps/i4/TB12rC6FVXXXXbeXFXXjP6tPXXX-372-205.jpg"></img>
-            <br />
+            <Image src="/image.1999.avif" alt="999" height={400} width={400} />
+                     <br />
            {/**part 2 */}
            </div><br />
            <div className="  mr-20 pt-50">
@@ -30,7 +29,7 @@ const about= () =>{
            <br />
            <div className=" rounded-l-sm mr-20 pt90">
            < div className="bg-left-top">
-           <img src="//img.alicdn.com/tps/i3/TB1vN1_FVXXXXa7XpXXViktNVXX-400-289.jpg"></img>
+           <Image src="/Screenshot (14).png" alt="999" height={400} width={400} />
            </div>
            </div>
 
@@ -39,6 +38,6 @@ const about= () =>{
         </div>
     )
 }
-export default  about
-
+export default  about        
+       
  
